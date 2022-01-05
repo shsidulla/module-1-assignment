@@ -89,6 +89,21 @@ p{
     background-position: 100% 100%;
     background-size: 20%;
 }
+.box-shadow{
+    text-align: center;
+    width: 50%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgb(2, 1, 1);
+}
+.box-shadow img{
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
 .footer{
     background-color: black;
     color: rgb(255, 255, 255);
@@ -98,9 +113,9 @@ p{
 }
 .footer-text{
     font-family: 'Lobster', cursive;
-font-family: 'Playball', cursive;
-font-family: 'Satisfy', cursive;
-font-family: 'Vujahday Script', cursive;
+    font-family: 'Playball', cursive;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Vujahday Script', cursive;
 }
 #footer-link{
     text-decoration: none;
