@@ -9,7 +9,7 @@ h1{
 }
 .flaxible-container{
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 90%;
@@ -19,6 +19,7 @@ h1{
 }
 .half-width img{
     width: 100%;
+    
 }
 .orange-color{
     color: orange;
@@ -69,3 +70,23 @@ p{
     align-items: left;
     width: 200px;
 }
+.left-banner{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 20%;
+}
+.right-banner{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 20%;
+}
+.footer{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
