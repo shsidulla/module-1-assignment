@@ -1,6 +1,11 @@
 body{
     margin: 0;
+    Padding:0
 }
+Section {
+    Overflow: hidden
+}
+
 h1{
     font-size: 60px;
 }
@@ -25,10 +30,12 @@ h1{
     color: orange;
 }
 #border-line{
-    border-left: 7px solid;
+    border-left: 6px solid;
     border-image: linear-gradient(rgb(255, 0, 13), rgb(7, 14, 14));
     border-image-slice: 1;
     padding-left: 2%;
+    margin-top: 30%;
+    
     
 }
 .button{
@@ -104,6 +111,23 @@ p{
     margin-right: 50px;
 
 }
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+#text-div{
+    border-radius: 5px;
+    background-color: #808080;
+    padding: 20px;
+}
+
 .footer{
     background-color: black;
     color: rgb(255, 255, 255);
